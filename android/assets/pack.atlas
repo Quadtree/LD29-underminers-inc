@@ -1,0 +1,278 @@
+
+pack.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+buzzsaw
+  rotate: false
+  xy: 179, 38
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+buzzsaw_markings
+  rotate: false
+  xy: 579, 161
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+construction_beam
+  rotate: false
+  xy: 229, 104
+  size: 64, 16
+  orig: 64, 16
+  offset: 0, 0
+  index: -1
+constructor
+  rotate: false
+  xy: 295, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+constructor_markings
+  rotate: false
+  xy: 329, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+dialog
+  rotate: false
+  xy: 2, 122
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+dialog_bottom
+  rotate: false
+  xy: 522, 245
+  size: 118, 5
+  orig: 118, 5
+  offset: 0, 0
+  index: -1
+dialog_center
+  rotate: false
+  xy: 2, 2
+  size: 118, 118
+  orig: 118, 118
+  offset: 0, 0
+  index: -1
+dialog_left
+  rotate: false
+  xy: 122, 2
+  size: 5, 118
+  orig: 5, 118
+  offset: 0, 0
+  index: -1
+dialog_ll
+  rotate: false
+  xy: 613, 188
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+dialog_lr
+  rotate: false
+  xy: 695, 238
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+dialog_right
+  rotate: false
+  xy: 522, 125
+  size: 5, 118
+  orig: 5, 118
+  offset: 0, 0
+  index: -1
+dialog_top
+  rotate: false
+  xy: 642, 245
+  size: 118, 5
+  orig: 118, 5
+  offset: 0, 0
+  index: -1
+dialog_ul
+  rotate: false
+  xy: 129, 15
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+dialog_ur
+  rotate: false
+  xy: 213, 5
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+dirt1
+  rotate: false
+  xy: 129, 72
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+dirt_dug
+  rotate: false
+  xy: 529, 195
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+fabricator
+  rotate: false
+  xy: 132, 122
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+healthbar
+  rotate: false
+  xy: 762, 247
+  size: 32, 3
+  orig: 32, 3
+  offset: 0, 0
+  index: -1
+mine_icon
+  rotate: false
+  xy: 129, 22
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+miner
+  rotate: false
+  xy: 363, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+miner_markings
+  rotate: false
+  xy: 397, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+mining_laser
+  rotate: false
+  xy: 629, 227
+  size: 64, 16
+  orig: 64, 16
+  offset: 0, 0
+  index: -1
+ore
+  rotate: false
+  xy: 179, 72
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+ore_chunk
+  rotate: false
+  xy: 213, 12
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+ore_mined
+  rotate: false
+  xy: 529, 145
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+peltast
+  rotate: false
+  xy: 431, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+peltast_bolt
+  rotate: false
+  xy: 579, 135
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+peltast_markings
+  rotate: false
+  xy: 465, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+porter
+  rotate: false
+  xy: 629, 193
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+porter_markings
+  rotate: false
+  xy: 663, 193
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+refinery
+  rotate: false
+  xy: 262, 122
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+refinery_active
+  rotate: false
+  xy: 392, 122
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+sentinel
+  rotate: false
+  xy: 499, 88
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+sentinel_bolt
+  rotate: false
+  xy: 247, 60
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+sentinel_markings
+  rotate: false
+  xy: 179, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+sentinel_shield
+  rotate: false
+  xy: 213, 38
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_mine
+  rotate: false
+  xy: 579, 195
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+tow_beam
+  rotate: false
+  xy: 229, 86
+  size: 64, 16
+  orig: 64, 16
+  offset: 0, 0
+  index: -1
