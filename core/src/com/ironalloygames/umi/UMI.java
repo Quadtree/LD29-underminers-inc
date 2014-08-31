@@ -21,6 +21,8 @@ public class UMI extends ApplicationAdapter {
 
 		gs = new GameState();
 		gs.create();
+
+		GA.trackEvent("Game Started", "", 0);
 	}
 
 	@Override

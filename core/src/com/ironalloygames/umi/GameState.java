@@ -166,13 +166,13 @@ public class GameState implements Disposable, ContactListener {
 		temp = new ArrayList<Entity>();
 		/*
 		 * world.QueryAABB(new QueryCallback() {
-		 * 
+		 *
 		 * @Override public boolean reportFixture(Fixture fixture) { if
 		 * (fixture.getUserData() != null) { Entity e = (Entity)
 		 * fixture.getUserData();
-		 * 
+		 *
 		 * float dist = e.getPosition().dst2(position);
-		 * 
+		 *
 		 * if (dist < maxRange * maxRange) { if (dist < .01f ||
 		 * terrain.isInLOS(position, e.getPosition(), allowBuildings)) {
 		 * temp.add(e); } } } return true; } }, position.x - maxRange,
@@ -269,11 +269,14 @@ public class GameState implements Disposable, ContactListener {
 		}
 
 		if (aiUnits == 0) {
+			GA.trackEvent("Game Action", "Win", 0);
 			igis.victoryScreenUp = true;
 		}
 
-		if (playerUnits == 0)
+		if (playerUnits == 0) {
+			GA.trackEvent("Game Action", "Lose", 0);
 			igis.defeatScreenUp = true;
+		}
 
 		world.step(0.016f, 1, 1);
 	}

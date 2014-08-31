@@ -3,6 +3,7 @@ package com.ironalloygames.umi.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
+import com.ironalloygames.umi.GA;
 import com.ironalloygames.umi.UMI;
 
 public class HtmlLauncher extends GwtApplication {
@@ -14,6 +15,7 @@ public class HtmlLauncher extends GwtApplication {
 
 	@Override
 	public GwtApplicationConfiguration getConfig() {
+		GA.enable();
 		return new GwtApplicationConfiguration(1024, 768);
 	}
 }

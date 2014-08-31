@@ -119,6 +119,7 @@ public class InGameInputSystem implements InputProcessor {
 
 		if (keycode == Keys.H) {
 			helpScreenUp = true;
+			GA.trackEvent("Game Action", "Reviewed Help Screen", 0);
 		}
 
 		if (keycode == Keys.BACKSPACE || keycode == Keys.DEL) {
